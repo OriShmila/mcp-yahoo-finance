@@ -25,6 +25,7 @@ classifiers = [
 dependencies = [
     "mcp>=1.6.0",
     "yfinance>=0.2.55",
+    "numpy==3.2.2",
 ]
 
 [project.scripts]
