@@ -37,6 +37,7 @@ def generate_tool(func: Any) -> Tool:
     schema = {
         "name": func.__name__,
         "description": docstring.split("Args:")[0].strip(),
+        "outputSchema":{},
         "inputSchema": {
             "type": "object",
             "properties": {},
